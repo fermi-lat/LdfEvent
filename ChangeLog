@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug  4 18:14:55 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	Gem.h 
+Log Message:
+start using fillstream
+    *
+------------------------------------------------------------
 User: heather  Mon Aug  2 14:04:46 PDT 2004
 LdfEvent/cmt
 
