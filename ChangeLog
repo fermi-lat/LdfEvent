@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 14 14:30:47 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	Gem.h 
+Log Message:
+add enum to unpack condition summary in GEM
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 14 14:30:31 PDT 2004
 LdfEvent/doc
 
