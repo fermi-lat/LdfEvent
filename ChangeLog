@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 21 15:04:10 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+handle event contribution lengths
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 21 15:03:54 PDT 2004
 LdfEvent/cmt
 
