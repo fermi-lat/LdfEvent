@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 25 15:39:27 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+handle event flag
+    *
+------------------------------------------------------------
 User: heather  Wed Aug 18 13:32:28 PDT 2004
 LdfEvent/cmt
 
