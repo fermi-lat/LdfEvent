@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jan 19 15:35:20 PST 2005
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+missing include
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r5p1, operation: add
 Package: LdfEvent
