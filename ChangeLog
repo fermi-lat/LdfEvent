@@ -1,0 +1,26 @@
+------------------------------------------------------------
+User: heather  Thu May 13 15:02:26 PDT 2004
+LdfEvent
+
+Log Message:
+Initial import of new LdfEvent, replacing EbfEvent
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N LdfEvent/.cvsignore
+N LdfEvent/cmt/.cvsignore
+N LdfEvent/cmt/requirements
+N LdfEvent/doc/release.notes
+N LdfEvent/LdfEvent/DiagnosticData.h
+N LdfEvent/LdfEvent/EventSummaryData.h
+N LdfEvent/LdfEvent/LdfTime.h
+N LdfEvent/src/DefineClids.cxx
+N LdfEvent/src/mainpage.h
+N LdfEvent/src/test/testMain.cxx
+
+No conflicts created by this import
+
+    *
