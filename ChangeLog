@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Dec 22 15:33:30 PST 2004
+LdfEvent/src
+
+Removed Files:
+	DefineClids.cxx 
+Log Message:
+remove outdated DefineClids.cxx
+    *
+------------------------------------------------------------
 User: heather  Wed Dec 22 15:32:56 PST 2004
 LdfEvent/doc
 
