@@ -132,7 +132,7 @@ private:
 
     /** @class Gem
       * @brief Local storage of GEM data
-      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.1 2004/08/02 21:03:44 heather Exp $
+      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.2 2004/08/05 01:14:55 heather Exp $
     */
     class Gem : public DataObject{
     public:
@@ -237,12 +237,12 @@ private:
 
     inline std::ostream& Gem::fillStream(std::ostream &s) const{
         s << "GEM:" <<std::endl;
-		s << "ROI vector = 0x" << std::hex << std::setw(4) << std::setfill('0') << roiVector() << std::endl;
-		s << "TKR vector = 0x" << std::hex << std::setw(4) << tkrVector() << std::endl;
-		s << "CAL HE vector = 0x" << std::hex << std::setw(4) << m_cal_HE_Vector << std::endl;
-		s << "CAL LE vector = 0x" << std::hex << std::setw(4) << m_cal_LE_Vector << std::endl;
-		s << "Condition Summary = 0x" << std::hex << std::setw(4) << m_conditionSummary << std::endl;
-		s << "CNO vector        = 0x" << std::hex << std::setw(4) << m_cno_Vector << std::endl;
+        s << "ROI vector = 0x" << std::hex << std::setw(4) << std::setfill('0') << roiVector() << std::endl;
+        s << "TKR vector = 0x" << std::hex << std::setw(4) << tkrVector() << std::endl;
+        s << "CAL HE vector = 0x" << std::hex << std::setw(4) << m_cal_HE_Vector << std::endl;
+        s << "CAL LE vector = 0x" << std::hex << std::setw(4) << m_cal_LE_Vector << std::endl;
+        s << "Condition Summary = 0x" << std::hex << std::setw(4) << m_conditionSummary << std::endl;
+        s << "CNO vector        = 0x" << std::hex << std::setw(4) << m_cno_Vector << std::endl;
         m_tileList.fillStream(s);
 		s << "Live time         = 0x" << std::hex << std::setw(8) << m_liveTime << std::dec << " = "; 
         s << m_liveTime << std::endl;
@@ -253,17 +253,17 @@ private:
 		s << "Sent              = 0x" << std::hex << std::setw(8) << m_sent << std::dec << " = " ;
         s << m_sent << std::endl;
 		s << "Trigger Time      = 0x" << std::hex << std::setw(8) << m_triggerTime << std::dec << " = " ;
-		s << m_triggerTime << std::endl;
+        s << m_triggerTime << std::endl;
         m_onePpsTime.fillStream(s);
-		s << "Delta event time = 0x" << std::hex << std::setw(8) << m_deltaEventTime << std::dec << " = ";
+        s << "Delta event time = 0x" << std::hex << std::setw(8) << m_deltaEventTime << std::dec << " = ";
         s << m_deltaEventTime << std::endl;
         return s;
-    }
+}
 
 
-    inline std::ostream& operator<<(std::ostream &s, const Gem &obj){
-        return obj.fillStream(s);
-    }
+inline std::ostream& operator<<(std::ostream &s, const Gem &obj){
+    return obj.fillStream(s);
+}
 
 }//namespace LdfEvent
 
