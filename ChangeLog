@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 24 13:29:56 PST 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	DiagnosticData.h 
+Log Message:
+store tower and layer/gtcc for CAL/TKR diagnostic
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 24 13:29:44 PST 2004
 LdfEvent/doc
 
