@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Dec 22 15:33:45 PST 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	DiagnosticData.h EventSummaryData.h Gem.h LdfTime.h 
+Log Message:
+setup CLIDs as is currently done in the Event package
+    *
+------------------------------------------------------------
 User: heather  Wed Dec 22 15:33:30 PST 2004
 LdfEvent/src
 
