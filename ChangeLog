@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r4, operation: add
+Package: LdfEvent
+User: heather  Wed Nov 24 13:31:07 2004
+Files:
+  LdfEvent/.cvsignore  1.1.1.1
+  LdfEvent/ChangeLog  1.40
+  LdfEvent/LdfEvent/LdfTime.h  1.2
+  LdfEvent/LdfEvent/Gem.h  1.8
+  LdfEvent/LdfEvent/DiagnosticData.h  1.3
+  LdfEvent/LdfEvent/EventSummaryData.h  1.7
+  LdfEvent/cmt/.cvsignore  1.1.1.1
+  LdfEvent/cmt/requirements  1.13
+  LdfEvent/doc/release.notes  1.12
+  LdfEvent/src/mainpage.h  1.1.1.1
+  LdfEvent/src/DefineClids.cxx  1.2
+  LdfEvent/src/test/testMain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 24 13:29:56 PST 2004
 LdfEvent/LdfEvent
 
