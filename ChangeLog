@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 24 13:29:39 PST 2004
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+store tower and layer/gtcc for CAL/TKR diagnostic
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r3, operation: add
 Package: LdfEvent
