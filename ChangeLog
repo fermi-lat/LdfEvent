@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct  4 22:44:44 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	DiagnosticData.h EventSummaryData.h Gem.h LdfTime.h 
+Log Message:
+add CLID methods
+    *
+------------------------------------------------------------
 User: heather  Mon Oct  4 14:33:26 PDT 2004
 LdfEvent/LdfEvent
 
