@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 18 11:58:08 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	Gem.h 
+Log Message:
+make methods inline
+    *
+------------------------------------------------------------
 User: heather  Fri Aug  6 11:47:03 PDT 2004
 LdfEvent/LdfEvent
 
