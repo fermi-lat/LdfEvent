@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Dec 22 15:41:49 PST 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+setup CLIDs as is currently done in the Event package
+    *
+------------------------------------------------------------
 User: heather  Wed Dec 22 15:33:45 PST 2004
 LdfEvent/LdfEvent
 
