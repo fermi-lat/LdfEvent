@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Mar 13 23:55:47 PST 2005
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+handle trgParityError
+    *
+------------------------------------------------------------
 User: heather  Sun Mar 13 23:55:27 PST 2005
 LdfEvent/cmt
 
