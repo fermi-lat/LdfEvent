@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 14 14:19:55 PDT 2004
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add enum to unpack condition summary
+    *
+------------------------------------------------------------
 User: heather  Thu Aug 26 22:29:25 PDT 2004
 LdfEvent/cmt
 
