@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct  4 14:32:57 PDT 2004
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+use unsigned int consistently
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 21 15:04:10 PDT 2004
 LdfEvent/LdfEvent
 
