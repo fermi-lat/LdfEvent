@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Aug 26 22:29:25 PDT 2004
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add eventSequence method
+    *
+------------------------------------------------------------
 User: heather  Thu Aug 26 22:29:13 PDT 2004
 LdfEvent/doc
 
