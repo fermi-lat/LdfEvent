@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Dec 22 15:32:51 PST 2004
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+setup CLIDs as is currently done in the Event package
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r4, operation: add
 Package: LdfEvent
