@@ -132,7 +132,7 @@ private:
 
     /** @class Gem
       * @brief Local storage of GEM data
-      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.6 2004/09/14 21:30:46 heather Exp $
+      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.7 2004/09/14 22:47:08 heather Exp $
     */
     class Gem : public DataObject{
     public:
@@ -156,6 +156,10 @@ private:
         virtual ~Gem() { clear(); };
         virtual std::ostream& fillStream(std::ostream &s) const;
         friend std::ostream& operator << (std::ostream &s, const Gem &obj);
+
+        /// Retrieve reference to class definition structure
+        virtual const CLID& clID() const   { return Gem::classID(); }
+        static const CLID& classID()       { return CLID_LdfGem; }
 
         void clear();
 
