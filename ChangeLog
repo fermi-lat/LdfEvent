@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Apr  5 14:30:41 PDT 2005
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+handle new 32 bit evtsequence number in LDF v05-06-01
+    *
+------------------------------------------------------------
 User: heather  Tue Apr  5 14:30:13 PDT 2005
 LdfEvent/cmt
 
