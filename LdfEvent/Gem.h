@@ -152,7 +152,7 @@ private:
 
     /** @class Gem
       * @brief Local storage of GEM data
-      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.9 2004/12/22 23:33:45 heather Exp $
+      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.10 2005/02/22 06:45:57 heather Exp $
     */
     class Gem : public DataObject{
     public:
@@ -215,6 +215,8 @@ private:
         unsigned short calHEvector() const { return m_cal_HE_Vector;};
         unsigned short cnoVector() const { return m_cno_Vector;};
         unsigned short conditionSummary() const { return m_conditionSummary;};
+        unsigned short missed() const {
+           return (_conditionSummary >> 8) & (( 1 << 8 ) - 1 ); };
         const GemTileList& tileList() const { return m_tileList; };
         unsigned liveTime() const {return m_liveTime; };
         unsigned prescaled() const { return m_prescaled;};
