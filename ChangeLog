@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Dec 22 15:32:56 PST 2004
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+setup CLIDs as is currently done in the Event package
+    *
+------------------------------------------------------------
 User: heather  Wed Dec 22 15:32:51 PST 2004
 LdfEvent/cmt
 
