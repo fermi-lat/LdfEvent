@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar 15 15:35:42 PST 2005
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+store all diagnostic and error lengths
+    *
+------------------------------------------------------------
 User: heather  Tue Mar 15 15:35:34 PST 2005
 LdfEvent/cmt
 
