@@ -16,7 +16,8 @@
 * @class Gem
 * @brief TDS for GEM data
 */
-extern const CLID& CLID_LdfGem;
+static const CLID& CLID_LdfGem = InterfaceID("LdfGem", 1, 0);
+
 namespace LdfEvent {
 
 class GemTileList
@@ -132,7 +133,7 @@ private:
 
     /** @class Gem
       * @brief Local storage of GEM data
-      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.7 2004/09/14 22:47:08 heather Exp $
+      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.8 2004/10/05 05:44:44 heather Exp $
     */
     class Gem : public DataObject{
     public:
