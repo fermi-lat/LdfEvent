@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Nov 19 23:19:56 PST 2004
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+define TKRRECON bit in event flag
+    *
+------------------------------------------------------------
 User: heather  Fri Nov 19 23:19:47 PST 2004
 LdfEvent/cmt
 
