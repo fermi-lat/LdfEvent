@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Mar 13 23:55:15 PST 2005
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+handle trgParityError
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r6, operation: add
 Package: LdfEvent
