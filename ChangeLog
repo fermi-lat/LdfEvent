@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Aug 26 22:28:46 PDT 2004
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+add eventSequence method
+    *
+------------------------------------------------------------
 User: heather  Wed Aug 25 15:40:34 PDT 2004
 LdfEvent/doc
 
