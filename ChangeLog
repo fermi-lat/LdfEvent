@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Aug  2 14:03:44 PDT 2004
+LdfEvent/LdfEvent
+
+Added Files:
+	Gem.h 
+Log Message:
+prepare to handle gem data
+    *
+------------------------------------------------------------
 User: heather  Mon Aug  2 14:03:22 PDT 2004
 LdfEvent/src
 
