@@ -132,7 +132,7 @@ private:
 
     /** @class Gem
       * @brief Local storage of GEM data
-      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.5 2004/08/18 20:31:05 heather Exp $
+      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.6 2004/09/14 21:30:46 heather Exp $
     */
     class Gem : public DataObject{
     public:
@@ -187,14 +187,14 @@ private:
         unsigned deltaEventTime() const { return m_deltaEventTime; };
 
         /// Methods to query bits in the condition summary word
-        bool roiSet() const { return (m_conditionSummary & ROI); };
-        bool tkrSet() const { return (m_conditionSummary & TKR); };
-        bool calLeSet() const { return (m_conditionSummary & CALLE); };
-        bool calHeSet() const { return (m_conditionSummary & CALHE); };
-        bool cnoSet() const { return (m_conditionSummary & CNO); };
-        bool periodicSet() const { return (m_conditionSummary & PERIODIC); };
-        bool solicitedSet() const { return (m_conditionSummary & SOLICITED); };
-        bool externalSet() const { return (m_conditionSummary & EXTERNAL); };
+        bool roiSet() const { return( (m_conditionSummary & ROI) != 0); };
+        bool tkrSet() const { return( (m_conditionSummary & TKR) != 0); };
+        bool calLeSet() const { return( (m_conditionSummary & CALLE) != 0); };
+        bool calHeSet() const { return( (m_conditionSummary & CALHE) != 0); };
+        bool cnoSet() const { return( (m_conditionSummary & CNO) != 0); };
+        bool periodicSet() const { return( (m_conditionSummary & PERIODIC) != 0); };
+        bool solicitedSet() const { return( (m_conditionSummary & SOLICITED) != 0) ; };
+        bool externalSet() const { return( (m_conditionSummary & EXTERNAL) != 0); };
 
     private:
 
