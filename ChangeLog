@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 18 10:33:35 PDT 2005
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h Gem.h 
+Log Message:
+store gem.missed and eventsizeinbytes
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 18 10:33:26 PDT 2005
 LdfEvent/cmt
 
