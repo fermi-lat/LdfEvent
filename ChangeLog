@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 18 10:33:13 PDT 2005
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+store gem.missed and eventsizeinbytes
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r10, operation: add
 Package: LdfEvent
