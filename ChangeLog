@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 18 10:33:26 PDT 2005
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+store gem.missed and eventsizeinbytes
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 18 10:33:13 PDT 2005
 LdfEvent/doc
 
