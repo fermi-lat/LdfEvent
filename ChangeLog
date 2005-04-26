@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 25 18:01:36 PDT 2005
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Use top-level eventid rather than EventSummary's event sequence data member
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 25 18:01:22 PDT 2005
 LdfEvent/doc
 
