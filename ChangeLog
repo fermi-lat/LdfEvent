@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 25 18:01:22 PDT 2005
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Use top-level eventid rather than EventSummary's event sequence data member
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r11, operation: add
 Package: LdfEvent
