@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun  9 23:19:01 PDT 2005
+LdfEvent/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+handle error summary
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r12, operation: add
 Package: LdfEvent
