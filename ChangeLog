@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 26 17:06:19 PDT 2005
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix up VC++ warnings
+    *
+------------------------------------------------------------
 User: heather  Tue Jul 26 17:06:03 PDT 2005
 LdfEvent/doc
 
