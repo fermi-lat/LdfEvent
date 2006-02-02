@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: echarles  Thu Feb  2 14:26:24 PST 2006
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfDatagramInfo.h LsfTime.h LsfTimeTone.h 
+Added Files:
+	LsfGemTime.h 
+Removed Files:
+	LsfTimeHack.h 
+Log Message:
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3, operation: add
 Package: LdfEvent
