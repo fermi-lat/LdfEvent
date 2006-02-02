@@ -1,15 +1,4 @@
 ------------------------------------------------------------
-User: echarles  Wed Feb  1 16:26:21 PST 2006
-LdfEvent/LdfEvent
-
-Added Files:
-	LsfConfiguration.h LsfDatagramInfo.h LsfGemScalars.h 
-	LsfMetaEvent.h LsfRunInfo.h LsfTime.h LsfTimeHack.h 
-	LsfTimeTone.h 
-Log Message:
-01-Feb-2005 EAC Added stuff for Lsf support
-    *
-------------------------------------------------------------
 TAG
 Tag name: v2r13p2, operation: add
 Package: LdfEvent
