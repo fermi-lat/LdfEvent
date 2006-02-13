@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: echarles  Mon Feb 13 11:09:41 PST 2006
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfConfiguration.h LsfDatagramInfo.h LsfGemTime.h 
+	LsfMetaEvent.h LsfRunInfo.h LsfTime.h LsfTimeTone.h 
+Added Files:
+	LsfGemScalers.h 
+Removed Files:
+	LsfGemScalars.h 
+Log Message:
+Changed scalar to scaler, added comments
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0, operation: add
 Package: LdfEvent
