@@ -6,17 +6,20 @@
 #include "Event/TopLevel/Definitions.h"
 
 #include "enums/Lsf.h"
+
+#include "lsfDataStore/LsfRunInfo.h"
+
 /** @class RunInfo
 * @brief encapsulate the run id parts of the event context
 *
 * 
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfRunInfo.h,v 1.1 2006/02/02 00:26:21 echarles Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfRunInfo.h,v 1.2 2006/02/13 19:09:41 echarles Exp $
 */
 
 namespace LsfEvent {
     
-  class RunInfo {
+  class RunInfo : public lsfDataStore::RunInfo {
        
   public:
 
@@ -36,6 +39,12 @@ namespace LsfEvent {
       : m_platform(other.platform()), m_origin(other.dataOrigin()), 
 	m_id(other.id()), m_startTime(other.startTime()) {
     }
+
+    RunInfo( const lsfDataStore::RunInfo &run)
+      : m_platform(run.platform()), m_origin(run.dataOrigin()),
+        m_id(run.id()), m_startTime(run.startTime()) {
+    }
+
     
     /// D'tor.  Nothing special.
     virtual ~RunInfo() {
@@ -97,17 +106,17 @@ namespace LsfEvent {
     }
     
     /// Output operator (ASCII)
-    friend std::ostream& operator<< ( std::ostream& s, const RunInfo& obj )    {
-      return obj.fillStream(s);
-    }
+    //friend std::ostream& operator<< ( std::ostream& s, const RunInfo& obj )    {
+    // return obj.fillStream(s);
+   // }
 
     /// Fill the output stream (ASCII)
-    std::ostream& fillStream( std::ostream& s ) const                            {
-      s << "class RunInfo : "
-	<< EventField( EventFormat::field12 );
-      printString(s);
-      return s;
-    }
+//    std::ostream& fillStream( std::ostream& s ) const                            {
+ //     s << "class RunInfo : ";
+  //    printString(s);
+   //   return s;
+    //}
+
     
   private:
 

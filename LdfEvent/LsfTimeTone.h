@@ -7,10 +7,12 @@
 #include "Event/TopLevel/Definitions.h"
 #include "LdfEvent/LsfGemTime.h"
 
+#include "lsfDataStore/LsfTimeTone.h"
+
 /** @class TimeTone
 * @brief FIXME
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfTimeTone.h,v 1.2 2006/02/02 22:26:24 echarles Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfTimeTone.h,v 1.3 2006/02/13 19:09:41 echarles Exp $
 */
 
 namespace LsfEvent {
@@ -37,6 +39,11 @@ namespace LsfEvent {
     TimeTone(const TimeTone& other)
       :m_incomplete(other.incomplete()), m_timeSecs(timeSecs()), 
        m_flywheeling(other.flywheeling()), m_flags(flags()), m_timeHack(other.timeHack()){
+    }
+    
+    TimeTone(const lsfDataStore::TimeTone& other)
+      :m_incomplete(other.incomplete()), m_timeSecs(other.timeSecs()), 
+       m_flywheeling(other.flywheeling()), m_flags(other.flags()), m_timeHack(other.timeHack()){
     }
     
     /// D'tor.  Nothing special.
@@ -135,7 +142,8 @@ namespace LsfEvent {
     /// Fill the output stream (ASCII)
     std::ostream& fillStream( std::ostream& s ) const                            {
       s << "class TimeTone : " 
-	<< m_incomplete << ' ' << m_timeSecs << ' ' << m_flywheeling << ' ' << m_flags;
+	<< "Secs " << m_timeSecs << " Incomplete: " << m_incomplete 
+        << "Flywheeling: "  << m_flywheeling << "Flags: " << m_flags;
       return s;
     }
 

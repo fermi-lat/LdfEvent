@@ -4,13 +4,14 @@
 #include <iostream>
 #include "GaudiKernel/StreamBuffer.h"
 #include "Event/TopLevel/Definitions.h"
+#include "lsfDataStore/LsfGemTime.h"
 
 #include "enums/Lsf.h"
 
 /** @class Timehack
 * @brief FIXME
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfGemTime.h,v 1.1 2006/02/02 22:26:24 echarles Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfGemTime.h,v 1.2 2006/02/13 19:09:41 echarles Exp $
 */
 
 namespace LsfEvent {
@@ -30,6 +31,9 @@ namespace LsfEvent {
     /// Copy c'tor.  Nothing fancy, just copy all values.
     GemTime( const GemTime& other )
       : m_hacks(other.hacks()), m_ticks(other.ticks()){}
+
+    GemTime( const lsfDataStore::GemTime& time) 
+      : m_hacks(time.hacks()), m_ticks(time.ticks()) { }
     
     /// D'tor.  Nothing special.
     virtual ~GemTime() {
@@ -75,7 +79,6 @@ namespace LsfEvent {
     /// Fill the output stream (ASCII)
     std::ostream& fillStream( std::ostream& s ) const                            {
       return s << "class GemTime : "
-	       << EventField( EventFormat::field12 )
 	       << m_hacks << ':' << m_ticks;
     }
     
