@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Sat Feb 25 00:33:14 PST 2006
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Removed Files:
+      Tag: v3r2
+	LsfConfiguration.h LsfDatagramInfo.h LsfGemScalers.h 
+	LsfGemTime.h LsfRunInfo.h LsfTime.h LsfTimeTone.h 
+Log Message:
+use lsfData package
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r2, operation: add
 Package: LdfEvent
