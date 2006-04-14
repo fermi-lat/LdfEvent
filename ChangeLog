@@ -1,4 +1,34 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r5, operation: add
+Package: LdfEvent
+User: heather  Fri Apr 14 09:39:10 2006
+Files:
+  LdfEvent/.cvsignore  1.1.1.1
+  LdfEvent/ChangeLog  1.128
+  LdfEvent/LdfEvent/LsfDatagramInfo.h  1.4
+  LdfEvent/LdfEvent/LsfConfiguration.h  1.3
+  LdfEvent/LdfEvent/LdfTime.h  1.3
+  LdfEvent/LdfEvent/Gem.h  1.13
+  LdfEvent/LdfEvent/DiagnosticData.h  1.4
+  LdfEvent/LdfEvent/LsfGemScalers.h  1.2
+  LdfEvent/LdfEvent/EventSummaryData.h  1.17
+  LdfEvent/LdfEvent/LsfTimeTone.h  1.4
+  LdfEvent/LdfEvent/LsfRunInfo.h  1.3
+  LdfEvent/LdfEvent/LsfCcsds.h  1.1
+  LdfEvent/LdfEvent/LsfMetaEvent.h  1.6
+  LdfEvent/LdfEvent/LsfTime.h  1.4
+  LdfEvent/LdfEvent/LsfGemTime.h  1.3
+  LdfEvent/LdfEvent/ErrorData.h  1.1
+  LdfEvent/cmt/.cvsignore  1.1.1.1
+  LdfEvent/cmt/requirements  1.33
+  LdfEvent/doc/release.notes  1.33
+  LdfEvent/src/mainpage.h  1.1.1.1
+  LdfEvent/src/temp.cxx  1.1
+  LdfEvent/src/test/testMain.cxx  1.2
+
+    *
+------------------------------------------------------------
 User: heather  Fri Apr 14 09:38:52 PDT 2006
 LdfEvent/doc
 
