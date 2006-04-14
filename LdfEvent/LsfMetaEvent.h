@@ -20,7 +20,7 @@
 
 /** @class MetaEvent
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.4 2006/02/25 08:33:14 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.5 2006/04/14 07:57:29 heather Exp $
 */
 
 static const CLID& CLID_MetaEvent = InterfaceID("MetaEvent", 1, 0);
@@ -82,7 +82,7 @@ namespace LsfEvent {
 
     /// D'tor.  Delete the configuration, which had been deep-copied
     virtual ~MetaEvent(){
-      delete m_config;
+      if (m_config) delete m_config;
     }
 
     /// Retrieve reference to class definition structure
@@ -116,9 +116,21 @@ namespace LsfEvent {
       m_datagram = datagram;
       m_scalers = scalers;
       m_time = time;
-      delete m_config;
+      if (m_config) delete m_config;
+      m_type = enums::Lsf::NoRunType;
       m_config = configuration.clone();
       m_type = configuration.type();
+    }
+
+    /// set everything except configuration
+    inline void set(const lsfData::RunInfo& run, 
+                    const lsfData::DatagramInfo& datagram, 
+		    const lsfData::GemScalers& scalers,
+		    const lsfData::Time& time) {
+      m_run = run;
+      m_datagram = datagram;
+      m_scalers = scalers;
+      m_time = time;
     }
 
     // set the individual data members
@@ -126,8 +138,10 @@ namespace LsfEvent {
     inline void setDatagram( const lsfData::DatagramInfo& val) { m_datagram = val; };
     inline void setScalers( const lsfData::GemScalers& val) { m_scalers = val; };
     inline void setTime( const lsfData::Time& val) { m_time = val; }; 
-    inline void setConfiguration( const lsfData::Configuration& configuration ) {
-      delete m_config;
+    inline void setConfiguration( const lsfData::Configuration& configuration )
+    {
+      if (m_config) delete m_config;
+      m_type = enums::Lsf::NoRunType;
       m_config = configuration.clone();
       m_type = configuration.type();
     }
