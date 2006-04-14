@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Apr 14 09:38:52 PDT 2006
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+make sure runs without configuration (MC) work
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r4, operation: add
 Package: LdfEvent
