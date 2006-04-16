@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Sat Apr 15 23:33:14 PDT 2006
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add flag for LDf status
+    *
+------------------------------------------------------------
+User: heather  Sat Apr 15 23:33:14 PDT 2006
 LdfEvent/LdfEvent
 
 Modified Files:
