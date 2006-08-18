@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Aug 18 11:30:36 PDT 2006
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+make this a shared library
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r7, operation: add
 Package: LdfEvent
