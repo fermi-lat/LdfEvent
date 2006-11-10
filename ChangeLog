@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Nov  9 22:32:22 PST 2006
+LdfEvent/LdfEvent
+
+Removed Files:
+	LsfConfiguration.h LsfDatagramInfo.h LsfGemScalers.h 
+	LsfGemTime.h LsfRunInfo.h LsfTime.h LsfTimeTone.h 
+Log Message:
+remove obsolete includes
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r8, operation: add
 Package: LdfEvent
