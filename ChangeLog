@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Apr 24 18:36:29 PDT 2007
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+prepare to tag v4r0 to handle keys
+    *
+------------------------------------------------------------
 User: heather  Thu Nov  9 22:33:34 PST 2006
 LdfEvent/doc
 
