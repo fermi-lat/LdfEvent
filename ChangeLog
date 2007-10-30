@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct 29 20:11:02 PDT 2007
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use gr_app
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r0, operation: add
 Package: LdfEvent
