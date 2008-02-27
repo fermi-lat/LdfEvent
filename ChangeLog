@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Feb 27 12:07:36 PST 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	DiagnosticData.h 
+Log Message:
+added needed #include directive
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r1, operation: add
 Package: LdfEvent
