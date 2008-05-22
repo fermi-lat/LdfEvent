@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed May 21 22:01:52 PDT 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+updates for filter bits
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-01-01, operation: add
 Package: LdfEvent
