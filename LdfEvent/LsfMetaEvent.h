@@ -14,7 +14,7 @@
 
 /** @class MetaEvent
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.7 2007/04/25 01:36:29 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.8 2008/05/22 05:01:52 heather Exp $
 */
 
 static const CLID& CLID_MetaEvent = InterfaceID("MetaEvent", 1, 0);
@@ -148,6 +148,11 @@ namespace LsfEvent {
         std::map<enums::Lsf::HandlerId, lsfData::LpaHandler*>::iterator iter = m_lpaHandlerCol.find(id);
         if (iter != m_lpaHandlerCol.end()) return (m_lpaHandlerCol[id]);
         else return 0;
+    }
+
+
+    inline void addLpaHandler(const enums::Lsf::HandlerId &id, const lsfData::LpaHandler &handler) {
+        m_lpaHandlerCol[id] = handler.clone();
     }
 
 
