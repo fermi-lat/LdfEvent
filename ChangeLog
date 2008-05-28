@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed May 28 13:07:26 PDT 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+back off virtual ctors in LpaHandler for now
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-02-01, operation: add
 Package: LdfEvent
