@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed May 28 13:07:26 PDT 2008
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+back off virtual ctors in LpaHandler for now
+    *
+------------------------------------------------------------
+User: heather  Wed May 28 13:07:26 PDT 2008
 LdfEvent/LdfEvent
 
 Modified Files:
