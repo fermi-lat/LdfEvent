@@ -1,5 +1,28 @@
 ------------------------------------------------------------
 TAG
+Tag name: LdfEvent-04-04-00, operation: add
+Package: LdfEvent
+User: glastrm  Thu May 29 22:45:24 2008
+Files:
+  LdfEvent/.cvsignore  1.1.1.1
+  LdfEvent/ChangeLog  1.171
+  LdfEvent/LdfEvent/LsfCcsds.h  1.1
+  LdfEvent/LdfEvent/LsfMetaEvent.h  1.11
+  LdfEvent/LdfEvent/LdfTime.h  1.3
+  LdfEvent/LdfEvent/Gem.h  1.13
+  LdfEvent/LdfEvent/ErrorData.h  1.2
+  LdfEvent/LdfEvent/DiagnosticData.h  1.5
+  LdfEvent/LdfEvent/EventSummaryData.h  1.18
+  LdfEvent/cmt/.cvsignore  1.1.1.1
+  LdfEvent/cmt/requirements  1.42
+  LdfEvent/doc/release.notes  1.43
+  LdfEvent/src/mainpage.h  1.1.1.1
+  LdfEvent/src/temp.cxx  1.1
+  LdfEvent/src/test/testMain.cxx  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v4r4, operation: add
 Package: LdfEvent
 User: heather  Thu May 29 22:40:40 2008
