@@ -14,7 +14,7 @@
 
 /** @class MetaEvent
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.10 2008/05/28 20:07:26 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.11 2008/05/30 05:34:55 heather Exp $
 */
 
 static const CLID& CLID_MetaEvent = InterfaceID("MetaEvent", 1, 0);
@@ -285,7 +285,6 @@ void addGammaHandler(const lsfData::GammaHandler& gamma) {
     m_gamma = new lsfData::GammaHandler(gamma);
 }
 void addDgnHandler(const lsfData::DgnHandler& dgn) {
-    std::cout << "adding in LdfEvent LsfMeta DGN" << std::endl;
     m_dgn = new lsfData::DgnHandler(dgn);
 }
 void addPassthruHandler(const lsfData::PassthruHandler& pass) {
