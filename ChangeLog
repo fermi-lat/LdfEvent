@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May 30 20:40:08 PDT 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+remove debug output
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-04-00, operation: add
 Package: LdfEvent
