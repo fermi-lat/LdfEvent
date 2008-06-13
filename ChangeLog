@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 12 20:55:41 PDT 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+add mootKey and prescaleFactor to TDS
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-04-01, operation: add
 Package: LdfEvent
