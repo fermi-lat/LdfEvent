@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jun 12 20:55:41 PDT 2008
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add mootKey and prescaleFactor to TDS
+    *
+------------------------------------------------------------
+User: heather  Thu Jun 12 20:55:41 PDT 2008
 LdfEvent/LdfEvent
 
 Modified Files:
