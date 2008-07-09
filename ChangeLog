@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Jul  9 14:13:42 PDT 2008
+GlastRelease-scons/LdfEvent
+
+Added Files:
+	LdfEventLib.py SConscript 
+Log Message:
+Added SConscript files to packages
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-05-00, operation: add
 Package: LdfEvent
