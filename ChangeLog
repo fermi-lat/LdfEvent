@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Jul 27 22:03:45 PDT 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+add mootAlias
+    *
+------------------------------------------------------------
 User: glastrm  Wed Jul  9 14:13:42 PDT 2008
 GlastRelease-scons/LdfEvent
 
