@@ -1,4 +1,29 @@
 ------------------------------------------------------------
+TAG
+Tag name: v4r6, operation: add
+Package: LdfEvent
+User: heather  Sun Jul 27 22:04:23 2008
+Files:
+  LdfEvent/.cvsignore  1.1.1.1
+  LdfEvent/ChangeLog  1.187
+  LdfEvent/SConscript  1.1
+  LdfEvent/LdfEventLib.py  1.1
+  LdfEvent/LdfEvent/LsfCcsds.h  1.1
+  LdfEvent/LdfEvent/LsfMetaEvent.h  1.14
+  LdfEvent/LdfEvent/LdfTime.h  1.3
+  LdfEvent/LdfEvent/Gem.h  1.13
+  LdfEvent/LdfEvent/ErrorData.h  1.2
+  LdfEvent/LdfEvent/DiagnosticData.h  1.5
+  LdfEvent/LdfEvent/EventSummaryData.h  1.18
+  LdfEvent/cmt/.cvsignore  1.1.1.1
+  LdfEvent/cmt/requirements  1.45
+  LdfEvent/doc/release.notes  1.46
+  LdfEvent/src/mainpage.h  1.1.1.1
+  LdfEvent/src/temp.cxx  1.1
+  LdfEvent/src/test/testMain.cxx  1.2
+
+    *
+------------------------------------------------------------
 User: heather  Sun Jul 27 22:03:45 PDT 2008
 LdfEvent/doc
 
