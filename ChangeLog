@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 30 20:49:20 PDT 2008
+LdfEvent/LdfEvent
+
+Modified Files:
+	LsfMetaEvent.h 
+Log Message:
+handle compressionLevel
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-06-00, operation: add
 Package: LdfEvent
