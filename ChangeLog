@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 30 20:50:09 PDT 2008
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+handle compressionLevel
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r6, operation: add
 Package: LdfEvent
