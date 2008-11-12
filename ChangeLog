@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v4r8, operation: mov
+Package: LdfEvent
+User: glastrm  Wed Nov 12 12:31:49 2008
+Files:
+  LdfEvent/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Nov 12 12:31:43 PST 2008
 LdfEvent
 
