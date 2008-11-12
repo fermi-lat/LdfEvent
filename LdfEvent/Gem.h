@@ -152,7 +152,7 @@ private:
 
     /** @class Gem
       * @brief Local storage of GEM data
-      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.12 2005/03/16 16:09:01 heather Exp $
+      * $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/Gem.h,v 1.13 2005/04/18 17:33:35 heather Exp $
     */
     class Gem : public DataObject{
     public:
@@ -198,6 +198,8 @@ private:
                          unsigned short conditionSummary, 
                          unsigned short missed,
                          const GemTileList &tileList);
+
+        void setTkrVector( unsigned short tkr);
 
         void initSummary(unsigned liveTime, unsigned prescaled, 
                          unsigned discarded, GemDataCondArrivalTime condArr,
@@ -264,7 +266,8 @@ private:
                   unsigned short calLE, unsigned short calHE, 
                   unsigned short cno, unsigned short conditionSummary, 
                   unsigned short missed,
-                  const GemTileList &tileList) {
+                  const GemTileList &tileList) 
+   {
         m_tkrVector = tkr;
         m_roiVector = roi;
         m_cal_LE_Vector = calLE;
@@ -273,7 +276,12 @@ private:
         m_conditionSummary = conditionSummary;
         m_missed = missed;
         m_tileList = tileList;
-    }
+   }
+
+   inline void Gem::setTkrVector( unsigned short tkr)
+   {
+       m_tkrVector = tkr;
+   }
 
 /*
     inline void Gem::initSummary(unsigned liveTime, unsigned prescaled, 
