@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:03 PST 2008
+GlastRelease-scons/LdfEvent
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for LdfEvent v4r8 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-08-00, operation: add
 Package: LdfEvent
