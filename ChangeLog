@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: LdfEvent-04-08-00, operation: mov
+Package: LdfEvent
+User: glast  Mon Dec  8 14:41:30 2008
+Files:
+  LdfEvent/SConscript  1.5
+  LdfEvent/SConscript  1.5
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 13:40:03 PST 2008
 GlastRelease-scons/LdfEvent
 
