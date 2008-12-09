@@ -2,6 +2,14 @@
 TAG
 Tag name: LdfEvent-04-08-00, operation: mov
 Package: LdfEvent
+User: glast  Mon Dec  8 16:19:03 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: LdfEvent-04-08-00, operation: mov
+Package: LdfEvent
 User: glast  Mon Dec  8 14:41:30 2008
 Files:
   LdfEvent/SConscript  1.5
