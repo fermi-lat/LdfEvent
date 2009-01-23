@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/LdfEvent/SConscript,v 1.4 2008/11/12 20:31:43 glastrm Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/LdfEvent/SConscript,v 1.3 2008/07/31 04:30:23 glastrm Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
-# Version: LdfEvent-04-08-00
+# Version: LdfEvent-04-07-00
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
@@ -15,6 +15,7 @@ progEnv.Tool('LdfEventLib')
 test_LdfEvent = progEnv.Program('test_LdfEvent', ['src/test/testMain.cxx'])
 
 progEnv.Tool('registerObjects', package = 'LdfEvent', libraries = [LdfEvent], testApps = [test_LdfEvent], includes = listFiles(['LdfEvent/*.h']))
+
 
 
 
