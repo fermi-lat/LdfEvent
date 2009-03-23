@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Mar 23 06:48:31 PDT 2009
+LdfEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add methods for all events flags
+    *
+------------------------------------------------------------
+User: heather  Mon Mar 23 06:48:31 PDT 2009
 LdfEvent/LdfEvent
 
 Modified Files:
