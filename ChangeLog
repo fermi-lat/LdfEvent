@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Mar 23 06:48:31 PDT 2009
+LdfEvent/LdfEvent
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+add methods for all events flags
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-09-00, operation: add
 Package: LdfEvent
