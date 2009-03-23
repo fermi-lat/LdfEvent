@@ -1,5 +1,30 @@
 ------------------------------------------------------------
 TAG
+Tag name: LdfEvent-04-10-00, operation: add
+Package: LdfEvent
+User: glastrm  Mon Mar 23 07:30:24 2009
+Files:
+  LdfEvent/.cvsignore  1.1.1.1
+  LdfEvent/ChangeLog  1.225
+  LdfEvent/SConscript  1.8
+  LdfEvent/LdfEventLib.py  1.1
+  LdfEvent/LdfEvent/LsfCcsds.h  1.1
+  LdfEvent/LdfEvent/LsfMetaEvent.h  1.15
+  LdfEvent/LdfEvent/LdfTime.h  1.3
+  LdfEvent/LdfEvent/Gem.h  1.14
+  LdfEvent/LdfEvent/ErrorData.h  1.2
+  LdfEvent/LdfEvent/DiagnosticData.h  1.5
+  LdfEvent/LdfEvent/EventSummaryData.h  1.20
+  LdfEvent/cmt/.cvsignore  1.1.1.1
+  LdfEvent/cmt/requirements  1.49
+  LdfEvent/doc/release.notes  1.50
+  LdfEvent/src/mainpage.h  1.1.1.1
+  LdfEvent/src/temp.cxx  1.1
+  LdfEvent/src/test/testMain.cxx  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v4r10, operation: mov
 Package: LdfEvent
 User: glastrm  Mon Mar 23 07:30:19 2009
