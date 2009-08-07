@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  7 14:54:50 PDT 2009
+GlastRelease-scons/LdfEvent
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+SConscript: convert to registerTargets
+.cvsignore:  add SCons build products
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-10-00, operation: add
 Package: LdfEvent
