@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Tue Apr 27 13:12:48 PDT 2010
+LdfEvent/LdfEvent
+
+Modified Files:
+	DiagnosticData.h 
+Log Message:
+Add a setDataWord method for the CAL to match the one for the TKR
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-11-00, operation: add
 Package: LdfEvent
