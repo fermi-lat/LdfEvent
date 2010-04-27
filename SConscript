@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/SConscript,v 1.10 2009/11/06 01:58:03 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/SConscript,v 1.11 2010/04/12 14:03:38 lsrea Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
-# Version: LdfEvent-04-11-00
+# Version: LdfEvent-04-12-00
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
