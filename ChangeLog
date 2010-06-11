@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:38:36 PDT 2010
+GlastRelease-scons/LdfEvent
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-12-00, operation: add
 Package: LdfEvent
