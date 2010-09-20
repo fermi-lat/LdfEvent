@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Sep 20 09:13:04 PDT 2010
+LdfEvent
+
+Modified Files:
+      Tag: GlastReleasev18r6p1
+	SConscript 
+Log Message:
+update version
+    *
+------------------------------------------------------------
 TAG
 Tag name: LdfEvent-04-12-01, operation: add
 Package: LdfEvent
