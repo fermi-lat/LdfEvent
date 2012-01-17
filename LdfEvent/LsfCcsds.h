@@ -1,6 +1,7 @@
 #ifndef LDFEVENT_CCSDS_H
 #define LDFEVENT_CCSDS_H 1
 
+#include <cstdio>
 #include <iostream>
 #include "GaudiKernel/StreamBuffer.h"
 
@@ -14,7 +15,7 @@
 
 /** @class LsfCcsds 
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/LdfEvent/LdfEvent/LsfMetaEvent.h,v 1.4 2006/02/25 08:33:14 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/LdfEvent/LdfEvent/LsfCcsds.h,v 1.1 2006/04/12 07:22:11 heather Exp $
 */
 
 static const CLID& CLID_LsfCcsds = InterfaceID("LsfCcsds", 1, 0);
