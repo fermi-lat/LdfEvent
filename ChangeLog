@@ -1,4 +1,29 @@
 ------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-br01, operation: add
+Package: LdfEvent
+User: heather  Fri Jan 20 12:03:02 2012
+Files:
+  LdfEvent/.cvsignore  1.2
+  LdfEvent/ChangeLog  1.233
+  LdfEvent/SConscript  1.10
+  LdfEvent/LdfEventLib.py  1.1
+  LdfEvent/LdfEvent/LsfCcsds.h  1.1
+  LdfEvent/LdfEvent/LsfMetaEvent.h  1.15
+  LdfEvent/LdfEvent/LdfTime.h  1.3
+  LdfEvent/LdfEvent/Gem.h  1.14
+  LdfEvent/LdfEvent/ErrorData.h  1.2
+  LdfEvent/LdfEvent/DiagnosticData.h  1.5
+  LdfEvent/LdfEvent/EventSummaryData.h  1.20
+  LdfEvent/cmt/.cvsignore  1.1.1.1
+  LdfEvent/cmt/requirements  1.50
+  LdfEvent/doc/release.notes  1.51
+  LdfEvent/src/mainpage.h  1.1.1.1
+  LdfEvent/src/temp.cxx  1.1
+  LdfEvent/src/test/testMain.cxx  1.2
+
+    *
+------------------------------------------------------------
 User: cohen  Tue Jan 17 08:52:05 PST 2012
 GlastRelease-scons/LdfEvent/LdfEvent
 
