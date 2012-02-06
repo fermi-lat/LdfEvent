@@ -40,6 +40,8 @@ namespace LdfEvent {
         unsigned dataWord() const { return m_datum; };
         unsigned tower() const { return m_tower; };
         unsigned layer() const { return m_layer; };
+        // for overlays
+        void setDataWord( unsigned int datum) { m_datum = datum; };
 
     private:
         unsigned m_datum;
@@ -58,6 +60,8 @@ namespace LdfEvent {
             unsigned dataWord() const { return m_datum; };
             unsigned tower() const { return m_tower; }; 
             unsigned gtcc() const { return m_gtcc; };
+            // add this access method to make it easier to simulate diagnostic info
+            void setDataWord( unsigned int datum) { m_datum = datum; };
 
     private:
         unsigned m_datum;
@@ -83,6 +87,14 @@ namespace LdfEvent {
         inline void addTkrDiagnostic(const TkrDiagnosticData& tkr) { m_tkr.push_back(tkr); };
         inline int getNumTkrDiagnostic() const { return m_tkr.size(); };
         const TkrDiagnosticData& getTkrDiagnosticByIndex(unsigned int ind)const { return m_tkr[ind]; };
+
+        // needed for simulating diagnostic data
+        void setTkrDataWordByIndex( unsigned int ind, unsigned int datum) {
+            m_tkr[ind].setDataWord( datum );
+        }
+        void setCalDataWordByIndex( unsigned int ind, unsigned int datum) {
+            m_cal[ind].setDataWord( datum );
+        }
 
     private:
         std::vector<CalDiagnosticData> m_cal;
